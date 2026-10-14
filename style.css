@@ -22,8 +22,15 @@ body {
     justify-content: center;
     text-align: center;
     font-family: "Yu Gothic", "Segoe UI", sans-serif;
-    background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
     color: var(--main-text);
+    background-color: #f7fbff;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+        url("Gemini_Generated_Image_4jmxzv4jmxzv4jmx.jpg"),
+        linear-gradient(135deg, var(--bg-start), var(--bg-end));
+    background-size: cover, cover, cover;
+    background-position: center, center, center;
+    background-attachment: fixed, fixed, fixed;
 }
 
 .search_area {
